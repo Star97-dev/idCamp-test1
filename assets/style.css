@@ -63,7 +63,7 @@ main{
 
 .welcome{
     margin-top: 3rem;
-    font-size: 25px;
+    font-size: 40px;
     line-height: normal;
 }
 
@@ -94,18 +94,7 @@ main{
 .flex-about {
     flex: 50%;
     text-align: center;
-}
-
-.imgAbout{
-    width: 400px;
-    height: auto;
-    border-radius: 25%;
-    opacity: 0.8;  
-}
-
-.imgAbout:hover{
-    opacity: 1;
-    cursor: pointer;
+    line-height: 2px;
 }
 
 .flex-content {
