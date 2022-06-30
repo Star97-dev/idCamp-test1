@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <title> TA Dicoding </title>
+        <nav>
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#about"> About Me </a></li>
+                <li><a href="#skill"> Skill </a></li>
+                <li><a href="#contact"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="profile">
+            <p class="welcome">
+                Selamat Datang di website yang saya buat untuk tes IDCamp<br>
+                berikut saya membuat web profil diri saya sendiri
+            </p>
+            <hr class="hr1">
+        </div>
+        <div class="flex-container about" id="about">
+            <aside class="flex-about">
+                    <img class="imgProfile" src="assets/img/profile.png" alt="Profile" style="width: 200px;">
+                    <h4> Web Programmer </h4>
+                    <h2> Satria Anugerah </h2>
+                    <p> starash </p>
+            </aside>
+            <div class="flex-content">
+                <article>
+                    <h1> About Me </h1>
+                    <p class="paraAbout">
+                        Hello, Saya Satria Anugerah bertempat tinggal di kota Surabaya <br>
+                        sekarang saya berstatus sebagai fresh graduate dari kampus UPN Veteran Jawa Timur<br>
+                        untuk sekarang saya berfokus dalam pembelajaran javascript<br>
+                        dan berharap bisa mendapatkan banyak pelajaran dalam mengikuti IDCAmp.
+                        <br>
+                        <br>
+                        Terima kasih telah menyelenggarakan IDCamp, salam hormat dari saya sendiri.
+
+                    </p>
+                </article>
+            </div>
+        </div>
+        <h1 class="skillTitle"> Skill </h1>
+        <div class="flex-container" id="skill">
+            <div class="flexGroup">
+                <div class="card">
+                    <div class="header">
+                        <div class="icon">
+                            <i class='bx bxl-html5'></i>
+                        </div>
+                    </div>
+                        <div class="content">
+                            <h1> HTML </h1>
+                            <p> Intermediate </p>
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <div class="icon">
+                            <i class='bx bxl-css3' ></i>
+                        </div>
+                    </div>
+                        <div class="content">
+                            <h1> CSS </h1>
+                            <p> Basic </p>
+                        </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <div class="icon">
+                            <i class='bx bxl-javascript' ></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h1> Javascript </h1>
+                        <p> Basic </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flexGroup">                
+                <div class="card">
+                    <div class="header">
+                        <div class="icon img">
+                            <img src="assets/img/ci.png" alt="CI">
+                    </div>
+                </div>
+                <div class="content">
+                    <h1> Codeigniter </h1>
+                    <p> Intermediate </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="header">
+                    <div class="icon imgBoot">
+                        <img src="assets/img/bootstrap.png" alt="bootstrap">
+                    </div>
+                </div>
+                <div class="content">
+                    <h1> Bootstrap </h1>
+                    <p> Intermediate </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="header">
+                    <div class="icon imgMy">
+                        <img src="assets/img/MySQL.png" alt="MySQL">
+                    </div>
+                </div>
+                <div class="content">
+                    <h1> MySQL </h1>
+                    <p> Basic </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="flex-container" id="contact">
+            <div class="flex-contact">
+                <h1> Contact </h1>
+            </div>
+            <div class="flexGroupCon">
+                <div class="contactGroup left">
+                    <div class="flex-item">
+                        <div class="logoCon">
+                            <i class='bx bxl-gmail'></i>
+                        </div>
+                        <a href="mailto:satriabisnis97@gmail.com">
+                            <h2 class="hCon mail"> satriabisnis97@gmail.com</h2>
+                        </a> 
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://www.instagram.com/satriaanugerah_/">
+                            <div class="logoCon">
+                                <i class='bx bxl-instagram'></i>
+                            </div>
+                            <h2 class="hCon ig"> @satriaanugerah </h2>
+                        </a> 
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://github.com/Star97-dev">
+                            <div class="logoCon">
+                                <i class='bx bxl-github'></i>
+                            </div>
+                            <h2 class="hCon git"> Star97-dev </h2>
+                        </a> 
+                    </div>
+                </div>
+                <div class="contactGroup right">
+                    <form action="#">
+                        <div class="inputCon">
+                            <input type="text" name="username" id="username" class="input" placeholder="Name">
+                        </div>
+                        <div class="inputCon">
+                            <input type="number" name="phone" id="phone" class="input"  placeholder="Phone">
+                        </div>
+                        <div class="inputCon">
+                            <textarea name="detail" id="detail" cols="30" rows="10" class="input" placeholder="Write your detail project"></textarea>
+                        </div>
+                        <button type="submit" class="btn" id="btnSumbit"> Send Me </button>
+                    </form>
+                </div>
+            </div>  
+        </div>
+    </main>
+    <footer>
+        <p>STAR &copy 2022</p>
+    </footer>
+</body>
+
+<script src="assets/script.js">
+
+</script>
+
+</html>
